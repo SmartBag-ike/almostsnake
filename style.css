@@ -1,0 +1,26 @@
+*{
+    font-family: system-ui;
+}
+header{
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+}
+header h2{
+    font-size: 0.5em;
+}
+#losemenu{
+    animation-name: losemenu;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+#timing, #score{
+    font-size: 2em;
+}
+
+
+@keyframes losemenu {
+    From { background: gray } to {background: rgb(206, 201, 201)};
+}
